@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesaj qutusu</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <div class="message-container">
+        <h2 class="message-container__h2">Mesaj göndərmək istəyirsiniz?</h2>
+         <form action="#"  class="message-container__form" name="form">
+            <textarea  class="message-container__textarea" onkeydown="keyshow();" onkeyup="keyshow();" name="textarea"></textarea> <br>
+            <p class="message-container__textlength-show">max simvol sayı: 150</p>
+            <input type="submit" value="Göndər" class="message-container__button"  onclick="sendmessage();">
+         </form> 
+         <p class="message-container__notification"></p>
+        </div>
+
+    <script src="./js/main.js"></script>    
+</body>
+</html>
