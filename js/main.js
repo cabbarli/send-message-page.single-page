@@ -1,7 +1,7 @@
 let textarea, maxlength, sendtextshow, textlengthshow;
 textarea=document.querySelector(".message-container__textarea");
 maxlength=150;
-sendtextshow=document.querySelector(".message-container__last-message")
+
 textlengthshow=document.querySelector(".message-container__textlength-show");
 function keyshow(){
 if(textarea.value.length<=maxlength){
