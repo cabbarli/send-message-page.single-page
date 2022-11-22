@@ -22,6 +22,7 @@ function sendmessage(){
     let messageNotification;
     messageNotification=document.querySelector(".message-container__notification");
     if(textarea.value== ""){
+        // alert('Mesaj yazmamısınız');
         let setTime;
          messageNotification.textContent= "Mesaj yazmamısınız!"; 
          messageNotification.classList.add("background-color");
